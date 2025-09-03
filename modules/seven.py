@@ -1,0 +1,5 @@
+eids=(12,34,56,78)
+eids.append(90)
+print(eids)
+eids.remove(34)
+print(eids)
