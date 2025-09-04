@@ -1,6 +1,10 @@
 def outerfun():
     print('outer function')
-def innerfun():
+    def innerfun():
         print('inner function')
+    innerfun()
+# def fun():
+#     pass
 outerfun()
-innerfun()
+# innerfun()
+# fun()
