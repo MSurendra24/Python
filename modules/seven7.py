@@ -1,0 +1,10 @@
+s1=set()
+s2={'nm','nm1','nm2'}
+s2.add('nm3')
+print(s2)
+s2.update(['nm4','nm5'])
+print(s2)
+s1.add('nm')
+print(s1)
+s1.update(['nm1','nm2'])
+print(s1)
