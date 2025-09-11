@@ -3,3 +3,4 @@ def changecase(name):
     return name.upper()
 enames=list(map(changecase,enames))
 print(enames)
+
