@@ -1,0 +1,10 @@
+emp={
+    'eid':101,
+    'ename':'nm',
+    'esal':45000
+}
+print(emp)
+emp['eaddr']='bang'
+print(emp)
+print(emp['eid'])
+print(emp['loc'])
